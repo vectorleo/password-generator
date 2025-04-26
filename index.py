@@ -1,6 +1,7 @@
 import random
 
 def genratePassword(length,include_lower_case,include_upper_case,include_numbers,include_symbols):
+  
   lowerCaseChar = 'abcdefghijklmnopqrstuvwxyz'
   upperCaseChar = 'ABCDEFGHIJKLMNOPQURSTUVWXYZ'
   numberchar = '1234567890'
@@ -43,9 +44,6 @@ def genratePassword(length,include_lower_case,include_upper_case,include_numbers
 
 
 
-
-
-
 length_of_characters = 10
 include_lower_case = True
 include_upper_case = True
@@ -53,4 +51,4 @@ include_symbols = True
 include_numbers = True
 
 
-print(genratePassword(length_of_characters,include_lower_case,include_upper_case,include_symbols,include_numbers))
+print('generated password: '+genratePassword(length_of_characters,include_lower_case,include_upper_case,include_symbols,include_numbers))
